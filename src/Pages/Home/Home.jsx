@@ -1,11 +1,12 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "./Home.css";
+import img1 from "./ajay009a.png";
 
 function Home() {
   const handleType = (count) => {
     // access word count number
-    console.log(count);
+    // console.log(count);
   };
 
   const handleDone = () => {
@@ -14,9 +15,11 @@ function Home() {
 
   return (
     <section>
-      <div className="lg:flex min-h-screen bg-sky-950 ">
-        <div className=" lg:w-1/2 ">hi</div>
-        <div className=" lg:w-1/2 pt-40 pl-10 text-white  ">
+      <div className="lg:flex min-h-screen lg:pt-0 pb-5 bg-sky-950 ">
+        <div className=" lg:w-1/2 ">
+          <img className="lg:mt-10 lg:ml-16 img" src={img1} alt="not found" />
+        </div>
+        <div className=" lg:w-1/2 lg:pt-40 pl-10 text-white  ">
           <h1 className="Name text-4xl leading-relaxed  ">
             Hi, I'm <span className="text-sky-500">Ajay</span>
           </h1>
@@ -42,7 +45,7 @@ function Home() {
               />
             </span>
           </h1>
-          <p className="pt-6">
+          <p className="lg:pt-6  mb-5">
             As a skilled web developer, I am proficient in various programming
             languages, frameworks, and technologies, enabling me to create
             scalable and optimized web solutions tailored to meet clients'

@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.div{
-    @apply min-h-screen bg-sky-950 ;
+.div {
+  @apply min-h-screen bg-sky-950;
 }
 
-.div_head{
-    @apply text-center text-3xl text-sky-500 font-bold pt-0;
+.div_head {
+  @apply text-center text-3xl text-sky-500 font-bold lg:pt-0;
+}
+
+.skills {
+  @apply lg:w-1/4 w-64 h-80 bg-sky-500 rounded;
 }

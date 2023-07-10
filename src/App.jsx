@@ -1,4 +1,6 @@
 import Navbar from "./Components/Navbar";
+import Contact from "./Pages/Contact/Contact";
+import Experience from "./Pages/Experience/Experience";
 
 import Home from "./Pages/Home/Home";
 import Services from "./Pages/Services/Services";
@@ -13,6 +15,8 @@ function App() {
       <About />
       <Skills />
       <Services />
+      <Experience />
+      <Contact />
     </div>
   );
 }
